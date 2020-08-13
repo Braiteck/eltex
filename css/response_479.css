@@ -1,0 +1,531 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .block .cont
+    {
+        padding: 0;
+    }
+
+
+
+    .breadcrumbs
+    {
+        display: none;
+    }
+
+
+
+    .form .line.flex .label
+    {
+        display: block;
+
+        width: 100%;
+        min-height: 0;
+        margin-bottom: 7px;
+        padding: 0;
+    }
+
+    .form .line.flex .field
+    {
+        width: 100%;
+    }
+
+    .form .with_tip .datalist .tip .name
+    {
+        font-size: 15px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    .mob_header .logo a,
+    .mob_header .logo img
+    {
+        height: 40px;
+    }
+
+
+    .mob_header .phone
+    {
+        font-size: 16px;
+    }
+
+
+    #mob_search_modal
+    {
+        padding: 15px;
+    }
+
+
+    #mob_visited_modal
+    {
+        left: calc(-100% - 2px);
+
+        width: calc(400% + 4px);
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .main_slider .slide
+    {
+        min-height: 250px;
+    }
+
+    .main_slider .slide .title
+    {
+        font-size: 25px;
+    }
+
+    .main_slider .slide .desc
+    {
+        font-size: 15px;
+    }
+
+
+
+    .products .tabs .sep
+    {
+        margin: 0 15px;
+    }
+
+
+    .products .product .name
+    {
+        font-size: 15px;
+    }
+
+    .products .product .desc
+    {
+        font-size: 13px;
+
+        margin-top: 10px;
+    }
+
+    .products .product .bottom
+    {
+        margin-top: 10px;
+    }
+
+    .products .product .price
+    {
+        font-size: 15px;
+
+        padding-right: 12px;
+
+        background-size: 11px auto;
+    }
+
+    .products .product .to_cart
+    {
+        font-size: 13px;
+
+        padding: 0 10px;
+    }
+
+
+
+    .knowledge_base .links a
+    {
+        font-size: 13px;
+    }
+
+
+
+    .articles .tabs .box
+    {
+        margin: 0 -5px -10px;
+
+        border-radius: 0;
+        box-shadow: none;
+
+        justify-content: center;
+    }
+
+    .articles .tabs button
+    {
+        margin: 0 5px 10px;
+        padding: 0 20px;
+
+        box-shadow: 0 0 0 1px var(--color_blue);
+    }
+
+    .articles .tabs button:before
+    {
+        opacity: 0;
+    }
+
+
+    .articles .flex > *,
+    .troubleshooting .articles .flex > *
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    .troubleshooting .articles .tabs button
+    {
+        width: auto;
+    }
+
+
+
+    .category_info .head
+    {
+        font-size: 14px;
+    }
+
+
+
+    .product_info .product_name
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+
+    .product_info .info .buy_info
+    {
+        padding: 20px;
+    }
+
+    .product_info .info .price_block .price
+    {
+        font-size: 44px;
+        line-height: 40px;
+    }
+
+    .product_info .info .buy_info .buy_links > * + *
+    {
+        margin-left: 10px;
+    }
+
+    .product_info .info .buy_info .quike_buy_link
+    {
+        font-size: 15px;
+    }
+
+
+
+    .prod_specification .product .thumb
+    {
+        width: 120px;
+        height: auto;
+
+        align-self: flex-start;
+    }
+
+    .prod_specification .product .info
+    {
+        width: calc(100% - 140px);
+    }
+
+    .prod_specification .product .buy_link
+    {
+        margin-left: 140px;
+    }
+
+
+    .prod_equipment .item .thumb
+    {
+        width: 120px;
+    }
+
+    .prod_equipment .item .name
+    {
+        width: calc(100% - 140px);
+    }
+
+
+    .prod_settings .item
+    {
+        padding: 15px;
+    }
+
+    .prod_settings .item .title
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .prod_delivery .route .label
+    {
+        width: 100%;
+        margin-bottom: 6px;
+        padding: 0 15px;
+    }
+
+    .prod_delivery .route .nice-select
+    {
+        width: 100%;
+    }
+
+
+    .prod_delivery .info .path
+    {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .prod_delivery .info .path .from
+    {
+        position: relative;
+
+        width: 100%;
+        padding-right: 60px;
+    }
+
+    .prod_delivery .info .path .to
+    {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    .prod_delivery .info .path .to:before
+    {
+        top: -17px;
+        left: 0;
+    }
+
+    .prod_delivery .info .path .to:after
+    {
+        top: -21px;
+        left: 30px;
+    }
+
+    .prod_delivery .info .icon
+    {
+        width: 98px;
+        height: 56px;
+    }
+
+
+
+    .reviews .head .title
+    {
+        width: 100%;
+    }
+
+    .reviews .head .rating
+    {
+        font-size: 20px;
+
+        width: auto;
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .reviews .head .rating .stars
+    {
+        margin-right: 10px;
+    }
+
+    .reviews .head .rating .stars > *
+    {
+        width: 15px;
+        height: 15px;
+    }
+
+    .reviews .head .rating .stars > * + *
+    {
+        margin-left: 3px;
+    }
+
+
+    .reviews .head .add_review_link
+    {
+        width: auto;
+        padding: 0 20px;
+    }
+
+
+
+    .get_price_list .form .line,
+    .get_price_list .form .submit
+    {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+
+    .cart_info table td.price
+    {
+        font-size: 15px;
+    }
+
+
+
+    .checkout_form .method_info .text
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+    .checkout_form .delivery_methods
+    {
+        padding-top: 0;
+    }
+
+    .checkout_form .delivery_methods .methods
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .checkout_form .delivery_methods .methods input[type=radio] + label
+    {
+        width: 50%;
+    }
+
+
+    .checkout_form .delivery_methods .shipment .part
+    {
+        max-width: calc(50% - 10px);
+    }
+
+
+    .checkout_info aside
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+    .fancybox-slide--html .fancybox-close-small
+    {
+        width: 44px;
+        height: 48px;
+    }
+
+
+    .modal
+    {
+        padding: 30px 25px;
+    }
+
+    .modal_title
+    {
+        margin-bottom: 25px;
+    }
+
+
+
+    .modal .product
+    {
+        width: calc(100% + 50px);
+        margin: 25px -25px;
+        padding: 20px 25px;
+    }
+
+    .modal .product .name
+    {
+        font-size: 15px;
+    }
+
+    .modal .product .desc
+    {
+        font-size: 13px;
+    }
+
+
+    .modal .form .fast input[type=checkbox] + label
+    {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+
+
+    .success_modal .title
+    {
+        font-size: 20px;
+    }
+
+
+
+    #add_garanti_modal .modal_title
+    {
+        padding: 15px 30px;
+    }
+
+
+    #add_garanti_modal .list label
+    {
+        padding: 20px 64px 15px 50px;
+    }
+
+    #add_garanti_modal .list label .icon
+    {
+        top: 16px;
+        left: 20px;
+    }
+
+    #add_garanti_modal .list label .name
+    {
+        font-size: 15px;
+    }
+
+    #add_garanti_modal .list label .price
+    {
+        font-size: 20px;
+    }
+
+    #add_garanti_modal .list label .price sup
+    {
+        line-height: 14px;
+    }
+
+    #add_garanti_modal .list label:before
+    {
+        right: 20px;
+    }
+
+    #add_garanti_modal .list label:after
+    {
+        right: 26px;
+    }
+
+
+    #add_garanti_modal .bottom
+    {
+        padding: 20px 20px 25px;
+    }
+
+
+
+    #ProdIMG_modal
+    {
+        padding: 10px 20px;
+    }
+}
