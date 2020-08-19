@@ -763,6 +763,142 @@
 
 
 
+    .contacts_info .data .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        padding: 25px;
+    }
+
+
+    .contacts_info .data .info
+    {
+        padding: 25px;
+    }
+
+
+
+    .feedback
+    {
+        padding: 25px;
+    }
+
+    .feedback .form
+    {
+        width: calc(100% - 330px);
+    }
+
+    .feedback .col_left
+    {
+        width: 280px;
+    }
+
+    .feedback .col_right
+    {
+        width: calc(100% - 290px);
+    }
+
+
+
+    .managers
+    {
+        padding: 25px;
+    }
+
+    .managers .flex > *,
+    .managers .flex > *.big
+    {
+        width: calc(50% - 40px);
+    }
+
+
+
+    .managers .chats > * > div
+    {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .managers .chats .icon
+    {
+        margin-left: 0;
+    }
+
+
+
+    .requisites
+    {
+        padding: 25px;
+    }
+
+
+
+    .articles_page .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        padding: 20px;
+    }
+
+
+    .articles .types a
+    {
+        font-size: 17px;
+
+        height: 50px;
+    }
+
+
+
+    .article_info .article_title
+    {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+
+    .article_info .head .share
+    {
+        width: calc(100% + 6px);
+        margin-left: -6px;
+    }
+
+
+    .article_info .text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+    .article_info .text_block ul li:before
+    {
+        top: 6px;
+    }
+
+
+
+    .comments .comment .text_block
+    {
+        font-size: 15px;
+        line-height: 23px;
+    }
+
+
+
+    .add_comment .col_left
+    {
+        width: 280px;
+    }
+
+    .add_comment .col_right
+    {
+        width: calc(100% - 295px);
+    }
+
+
+
     .load_more,
     .all
     {

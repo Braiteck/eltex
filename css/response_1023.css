@@ -319,6 +319,25 @@
 
 
 
+    aside .articles_cats
+    {
+        margin-bottom: 7px;
+    }
+
+    aside .articles_cats a
+    {
+        min-height: 40px;
+    }
+
+
+
+    aside .equipment
+    {
+        display: none;
+    }
+
+
+
     /*---------------
         Main section
     ---------------*/
@@ -805,6 +824,242 @@
 
 
 
+    .contacts_info .data .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        padding: 20px;
+    }
+
+
+    .contacts_info .data .info
+    {
+        width: 315px;
+        padding: 20px;
+    }
+
+    .contacts_info .data .info > * + *
+    {
+        margin-top: 20px;
+    }
+
+
+    .contacts_info .data .city span
+    {
+        font-size: 16px;
+    }
+
+    .contacts_info .data .adress,
+    .contacts_info .data .phone,
+    .contacts_info .data .email
+    {
+        font-size: 15px;
+    }
+
+    .contacts_info .data .desc,
+    .contacts_info .data .postal_adress
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    .contacts_info .data .map
+    {
+        width: calc(100% - 315px);
+        min-height: 450px;
+    }
+
+
+
+    .feedback
+    {
+        padding: 20px;
+    }
+
+    .feedback .info
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .feedback .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .feedback .form
+    {
+        width: 100%;
+    }
+
+    .feedback .col_left
+    {
+        width: 280px;
+    }
+
+    .feedback .col_right
+    {
+        width: calc(100% - 300px);
+    }
+
+    .feedback .form .agree
+    {
+        position: relative;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        margin-top: 15px;
+    }
+
+
+
+    .managers
+    {
+        padding: 20px;
+    }
+
+    .managers .title
+    {
+        font-size: 19px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .managers .flex
+    {
+        margin-left: -20px;
+    }
+
+    .managers .flex > *,
+    .managers .flex > *.big
+    {
+        width: calc(50% - 20px);
+        margin-left: 20px;
+    }
+
+
+    .managers .manager .photo
+    {
+        width: 90px;
+        height: 90px;
+    }
+
+    .managers .manager .photo + .info
+    {
+        width: calc(100% - 110px);
+    }
+
+    .managers .manager .info > * + *
+    {
+        margin-top: 7px;
+    }
+
+    .managers .manager .name,
+    .managers .manager .phone,
+    .managers .manager .email,
+    .managers .chats > *
+    {
+        font-size: 15px;
+    }
+
+
+
+    .requisites
+    {
+        padding: 20px;
+    }
+
+
+    .requisites .title
+    {
+        font-size: 19px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .requisites table td
+    {
+        font-size: 15px;
+    }
+
+    .requisites table td.name
+    {
+        width: 240px;
+        min-width: 240px;
+    }
+
+    .requisites table td + td
+    {
+        padding-left: 20px;
+    }
+
+    .requisites table tr + tr td
+    {
+        padding-top: 15px;
+    }
+
+    .requisites table td img
+    {
+        max-height: 35px;
+    }
+
+
+
+    .articles_page .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        padding: 15px 20px;
+    }
+
+
+    .articles .types a
+    {
+        font-size: 16px;
+
+        height: 44px;
+    }
+
+
+
+    .article_info .head
+    {
+        margin-bottom: 30px;
+    }
+
+    .article_info .article_title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .article_info .date,
+    .article_info .date + .sep,
+    .article_info .cat
+    {
+        margin-top: 12px;
+    }
+
+    .article_info .reading_time,
+    .article_info .send_to_email
+    {
+        margin-top: 10px;
+    }
+
+    .article_info .equipment
+    {
+        margin-top: 15px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/
@@ -848,5 +1103,12 @@
     #cart_widget .bottom .links
     {
         display: none;
+    }
+
+
+    .success_modal .text
+    {
+        font-size: 18px;
+        line-height: 26px;
     }
 }

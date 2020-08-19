@@ -17,6 +17,14 @@
 
 
 
+    .text_block h2
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+
     .form .line.flex .label
     {
         display: block;
@@ -356,6 +364,11 @@
 
 
 
+    .get_price_list .cont
+    {
+        padding: 0 20px;
+    }
+
     .get_price_list .form .line,
     .get_price_list .form .submit
     {
@@ -409,6 +422,75 @@
     .checkout_info aside
     {
         width: 100%;
+    }
+
+
+
+    .articles .types a
+    {
+        margin: 0;
+        padding: 0 20px;
+
+        box-shadow: none;
+    }
+
+    .articles .types a:before
+    {
+        opacity: 1;
+    }
+
+
+
+    .articles_page .article .details
+    {
+        margin-top: 15px;
+    }
+
+
+
+    .article_info .article_title
+    {
+        font-size: 19px;
+        line-height: 23px;
+    }
+
+
+    .article_info .reading_time
+    {
+        width: 100%;
+    }
+
+    .article_info .send_to_email
+    {
+        margin-left: 0;
+    }
+
+
+    .article_info .share button
+    {
+        width: 34px;
+        height: 34px;
+    }
+
+
+
+    .comments .comment .name
+    {
+        width: 100%;
+    }
+
+    .comments .comment .date
+    {
+        width: 100%;
+        margin-top: 3px;
+        margin-left: 0;
+    }
+
+
+
+    .pagination
+    {
+        padding: 10px 20px;
     }
 
 
@@ -470,6 +552,18 @@
     .success_modal .title
     {
         font-size: 20px;
+    }
+
+    .success_modal .text
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .success_modal .text .icon
+    {
+        width: 26px;
+        height: 24px;
     }
 
 

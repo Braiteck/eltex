@@ -223,6 +223,30 @@
 
 
 
+    .articles_page .title
+    {
+        font-size: 28px;
+        line-height: 38px;
+
+        padding: 20px;
+    }
+
+
+    .articles .types a
+    {
+        height: 55px;
+    }
+
+
+
+    .article_info .article_title
+    {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/

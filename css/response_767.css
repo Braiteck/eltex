@@ -592,6 +592,187 @@
 
 
 
+    .contacts_info .data .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        padding: 15px 20px;
+    }
+
+
+    .contacts_info .data .info
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .data .map
+    {
+        width: 100%;
+        min-height: 360px;
+    }
+
+
+
+    .feedback .col_left,
+    .feedback .col_right
+    {
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .feedback .form .agree
+    {
+        margin-top: 0;
+    }
+
+    .feedback .form .submit
+    {
+        top: auto;
+    }
+
+
+
+    .managers .title
+    {
+        font-size: 18px;
+    }
+
+
+    .managers .flex > *,
+    .managers .flex > *.big
+    {
+        width: calc(100% - 20px);
+    }
+
+
+
+    .requisites .title
+    {
+        font-size: 18px;
+    }
+
+
+    .requisites table tr
+    {
+        display: block;
+    }
+
+    .requisites table tr + tr
+    {
+        padding-top: 15px;
+    }
+
+    .requisites table td
+    {
+        display: block;
+    }
+
+    .requisites table td.flex
+    {
+        display: flex;
+    }
+
+    .requisites table td.name
+    {
+        width: 100%;
+        min-width: 0;
+
+        text-align: left;
+    }
+
+    .requisites table tr + tr td
+    {
+        padding-top: 0;
+    }
+
+    .requisites table td + td
+    {
+        margin-top: 3px;
+        padding-left: 0;
+    }
+
+
+
+    .articles_page .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        padding: 15px 20px;
+    }
+
+
+    .articles .types a
+    {
+        font-size: 15px;
+
+        padding: 0 20px;
+    }
+
+
+    .articles_page .article .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    .article_info .article_title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .article_info .bottom .flex > *
+    {
+        width: 100%;
+    }
+
+    .article_info .bottom .flex > * + *
+    {
+        margin-top: 15px;
+    }
+
+
+    .related_articles .list > *
+    {
+        font-size: 15px;
+    }
+
+
+
+    .comments .comment .text_block
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    .add_comment .col_left,
+    .add_comment .col_right
+    {
+        width: 100%;
+    }
+
+    .add_comment .form .agree
+    {
+        margin: 0 0 20px;
+    }
+
+
+
+    .pagination .prev,
+    .pagination .next
+    {
+        display: none;
+    }
+
+
+
     /*---------------
         Footer
     ---------------*/
@@ -717,6 +898,19 @@
     .success_modal .title
     {
         font-size: 22px;
+    }
+
+
+    .success_modal .text
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .success_modal .text .icon
+    {
+        width: 28px;
+        height: 26px;
     }
 
 

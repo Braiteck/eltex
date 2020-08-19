@@ -251,6 +251,24 @@ $(() => {
 	})
 
 
+	$('body').on('submit', '.feedback .form', (e) => {
+		e.preventDefault()
+
+		$.fancybox.close()
+
+		$.fancybox.open({
+			src       : '#success_feedback_modal',
+			type      : 'inline',
+			touch     : false,
+			afterShow : (instance, current) => {
+				setTimeout(() => {
+					$.fancybox.close()
+				}, 4000)
+			}
+		})
+	})
+
+
 	$('body').on('submit', '#invoice_modal .form', (e) => {
 		e.preventDefault()
 
