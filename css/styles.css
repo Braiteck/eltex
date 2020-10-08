@@ -204,17 +204,11 @@ body
 
     height: 100%;
 
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-
     -webkit-tap-highlight-color: transparent;
-    -webkit-touch-callout: none;
+
     -webkit-overflow-scrolling: touch;
     text-rendering: optimizeLegibility;
     text-decoration-skip: objects;
-    -webkit-touch-callout: none;
 }
 
 body.lock
@@ -859,6 +853,11 @@ body.lock
 {
     position: relative;
     z-index: 9;
+}
+
+.form .with_tip.open
+{
+    z-index: 10;
 }
 
 .form .with_tip .input

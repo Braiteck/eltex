@@ -163,9 +163,9 @@ $(() => {
 		setTimeout(function() {
 			if (_self.val().length > 0) {
 				// здесь запрос за данными
-				parent.find('.datalist').addClass('show')
+				parent.addClass('open').find('.datalist').addClass('show')
 			} else {
-				parent.find('.datalist').removeClass('show')
+				parent.removeClass('open').find('.datalist').removeClass('show')
 			}
 		})
 	})
