@@ -17,10 +17,29 @@
 
 
 
+    .text_block h1
+    {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
     .text_block h2
     {
-        font-size: 19px;
-        line-height: 23px;
+        font-size: 17px;
+        line-height: 21px;
+    }
+
+
+    .text_block .pluses .item .name
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+    .text_block .gallery > *.width1of3
+    {
+        width: calc(100% - 20px);
     }
 
 
@@ -488,6 +507,195 @@
 
 
 
+    .search_info .search_title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    .search_info .search_bottom .flex
+    {
+        margin-left: -15px;
+    }
+
+    .search_info .search_bottom .flex > *
+    {
+        max-width: calc(100% - 15px);
+        margin-left: 15px;
+    }
+
+    .search_info .search_bottom button
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .search_info .search_bottom button .icon
+    {
+        width: 31px;
+        height: 31px;
+    }
+
+
+
+    .error_info .data
+    {
+        padding: 30px 20px;
+    }
+
+    .error_info .code
+    {
+        font-size: 76px;
+    }
+
+    .error_info .title,
+    .error_info .or_call .phone
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+
+    .error_info .search_title,
+    .error_info .or_call
+    {
+        font-size: 15px;
+        line-height: 19px;
+    }
+
+    .error_info .search .input
+    {
+        padding-left: 17px;
+    }
+
+
+    .error_info .bottom .flex
+    {
+        margin-left: -15px;
+    }
+
+    .error_info .bottom .flex > *
+    {
+        max-width: calc(100% - 15px);
+        margin-left: 15px;
+    }
+
+    .error_info .bottom button
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .error_info .bottom button .icon
+    {
+        width: 31px;
+        height: 31px;
+    }
+
+
+
+    .checkout_status .head .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+    .checkout_status .bottom .flex
+    {
+        margin-left: -15px;
+    }
+
+    .checkout_status .bottom .flex > *
+    {
+        max-width: calc(100% - 15px);
+        margin-left: 15px;
+    }
+
+    .checkout_status .bottom button
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .checkout_status .bottom button .icon
+    {
+        width: 31px;
+        height: 31px;
+    }
+
+
+
+    .about_info .head .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+
+    .view_history .head .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+
+    .view_history .bottom .flex
+    {
+        margin-left: -15px;
+    }
+
+    .view_history .bottom .flex > *
+    {
+        max-width: calc(100% - 15px);
+        margin-left: 15px;
+    }
+
+    .view_history .bottom button
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .view_history .bottom button .icon
+    {
+        width: 31px;
+        height: 31px;
+    }
+
+
+
+    .service_page .content .block .head .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .service_page .content .block .head .title.mini
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    .service_training .programs .program
+    {
+        padding: 20px 20px 20px 50px;
+    }
+
+    .service_training .programs .program .check
+    {
+        top: 20px;
+        bottom: auto;
+        left: 10px;
+    }
+
+
+
     .pagination
     {
         padding: 10px 20px;
@@ -511,14 +719,28 @@
     }
 
 
-    .modal
+    .modal,
+    #feedback_modal
     {
         padding: 30px 25px;
     }
 
     .modal_title
     {
+        font-size: 20px;
+
         margin-bottom: 25px;
+    }
+
+    .modal_desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .modal_desc br
+    {
+        display: none;
     }
 
 
@@ -621,5 +843,12 @@
     #ProdIMG_modal
     {
         padding: 10px 20px;
+    }
+
+
+
+    #feedback_modal .modal_title
+    {
+        margin-bottom: 10px;
     }
 }

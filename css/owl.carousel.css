@@ -365,6 +365,94 @@
 
 
 
+.products_block .owl-carousel .owl-nav button
+{
+    width: 52px;
+    height: 52px;
+
+    transition: background .2s linear;
+
+    border-radius: 50%;
+    background: #eee;
+}
+
+.products_block .owl-carousel .owl-nav button.owl-prev
+{
+    left: -12px;
+
+    margin-left: 0;
+}
+
+.products_block .owl-carousel .owl-nav button.owl-next
+{
+    right: -12px;
+
+    margin-right: 0;
+}
+
+.products_block .owl-carousel .owl-nav button span
+{
+    left: 6px;
+
+    width: 18px;
+    height: 18px;
+
+    border-width: 4px;
+    border-color: #fff;
+}
+
+.products_block .owl-carousel .owl-nav button:hover
+{
+    background: var(--color_blue);
+}
+
+
+
+.videos .owl-carousel .owl-nav button
+{
+    top: auto;
+
+    width: 52px;
+    height: 52px;
+
+    transition: background .2s linear;
+
+    border-radius: 50%;
+    background: #eee;
+}
+
+.videos .owl-carousel .owl-nav button.owl-prev
+{
+    left: 50%;
+
+    margin-left: -60px;
+}
+
+.videos .owl-carousel .owl-nav button.owl-next
+{
+    right: 50%;
+
+    margin-right: -60px;
+}
+
+.videos .owl-carousel .owl-nav button span
+{
+    left: 6px;
+
+    width: 18px;
+    height: 18px;
+
+    border-width: 4px;
+    border-color: #fff;
+}
+
+.videos .owl-carousel .owl-nav button:hover
+{
+    background: var(--color_blue);
+}
+
+
+
 .owl-dots
 {
     position: absolute;

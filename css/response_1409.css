@@ -3,6 +3,10 @@
     /*---------------
         Main styles
     ---------------*/
+    .text_block table td
+    {
+        min-width: 220px;
+    }
 
 
 

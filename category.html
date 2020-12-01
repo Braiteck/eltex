@@ -29,6 +29,7 @@
 		<!-- Подключение файлов стилей -->
 		<link rel="stylesheet" href="css/owl.carousel.css">
 		<link rel="stylesheet" href="css/fancybox.css">
+		<link rel="stylesheet" href="css/datepicker.min.css">
 		<link rel="stylesheet" href="css/styles.css">
 
 		<link rel="stylesheet" href="css/response_1409.css" media="(max-width: 1409px)">
@@ -1709,7 +1710,7 @@
 								<a href="mailto:mail@eltexcm.ru">mail@eltexcm.ru</a>
 							</div>
 
-							<button class="feedback_link">Написать нам</button>
+							<button class="feedback_link modal_link" data-content="#feedback_modal">Написать нам</button>
 						</div>
 
 
@@ -2473,6 +2474,59 @@
 		</section>
 
 
+		<section class="modal" id="feedback_modal">
+			<div class="modal_title">Написать нам</div>
+
+			<div class="modal_desc">Заполните форму и наш специалист свяжется с<br> Вами в ближайшее время</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+						<div class="label">Ваше имя</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="tel" name="" value="" class="input">
+					<div class="label">Телефон</div>
+					</div>
+				</div>
+
+				<div class="line for_type for_type1" style="display: block;">
+					<div class="field">
+						<input type="text" name="" value="" class="input">
+						<div class="label">Название компании</div>
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<textarea name=""></textarea>
+						<div class="label">Ваш вопрос</div>
+					</div>
+				</div>
+
+				<div class="line exp">
+					<div class="field">* Все поля обязательны для заполнения</div>
+				</div>
+
+				<div class="line agree">
+					<div class="field">
+						<input type="checkbox" name="agree" id="feedback_agree_check" checked>
+						<label for="feedback_agree_check">Я ознакомлен и согласен с условиями<br> <a href="/" target="_blank">Политики конфиденциальности</a></label>
+					</div>
+				</div>
+
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">Отправить</button>
+				</div>
+			</form>
+		</section>
+
+
 		<!-- Подключение javascript файлов -->
 		<script src="js/jquery-3.5.0.min.js"></script>
 		<script src="js/jquery-migrate-1.4.1.min.js"></script>
@@ -2482,6 +2536,7 @@
 		<script src="js/fancybox.min.js"></script>
 		<script src="js/clipboard.min.js"></script>
 		<script src="js/sticky-kit.min.js"></script>
+		<script src="js/datepicker.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
 	</body>
