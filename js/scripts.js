@@ -75,7 +75,7 @@ $(() => {
 
 
 	// Каталог товаров
-	$('#catalog_modal a.sub_link').click(function (e) {
+	$('.catalog_info a.sub_link').click(function (e) {
 		e.preventDefault()
 
 		if ($(this).hasClass('active')) {
