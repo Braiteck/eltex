@@ -3,11 +3,11 @@
     /*---------------
         Main styles
     ---------------*/
-	html.custom_scroll ::-webkit-scrollbar
-	{
-	    width: 5px;
-	    height: 5px;
-	}
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
 
 
     .block_head .desc
