@@ -50,6 +50,48 @@ $(() => {
 	})
 
 
+	// Товары
+	$('.case_equipment .slider').owlCarousel({
+		loop: false,
+		smartSpeed: 500,
+		fluidSpeed: 100,
+		dots: false,
+		nav: true,
+		responsive: {
+			0: {
+				items: 2,
+				margin: 10
+			},
+			0: {
+				items: 2,
+				margin: 20
+			},
+			768: {
+				items: 3,
+				margin: 20
+			},
+			1024: {
+				items: 4,
+				margin: 20
+			},
+			1280: {
+				items: 5,
+				margin: 28
+			}
+		},
+		onInitialized: event => {
+			setTimeout(() => {
+				productHeight($(event.target), $(event.target).find('.slide').length)
+			}, 100)
+		},
+		onResized: event => {
+			setTimeout(() => {
+				productHeight($(event.target), $(event.target).find('.slide').length)
+			}, 100)
+		}
+	})
+
+
 	// Видео
 	$('.videos .slider').owlCarousel({
 		loop: false,

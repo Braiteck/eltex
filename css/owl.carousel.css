@@ -365,7 +365,8 @@
 
 
 
-.products_block .owl-carousel .owl-nav button
+.products_block .owl-carousel .owl-nav button,
+.case_equipment .owl-carousel .owl-nav button
 {
     width: 52px;
     height: 52px;
@@ -376,21 +377,24 @@
     background: #eee;
 }
 
-.products_block .owl-carousel .owl-nav button.owl-prev
+.products_block .owl-carousel .owl-nav button.owl-prev,
+.case_equipment .owl-carousel .owl-nav button.owl-prev
 {
     left: -12px;
 
     margin-left: 0;
 }
 
-.products_block .owl-carousel .owl-nav button.owl-next
+.products_block .owl-carousel .owl-nav button.owl-next,
+.case_equipment .owl-carousel .owl-nav button.owl-next
 {
     right: -12px;
 
     margin-right: 0;
 }
 
-.products_block .owl-carousel .owl-nav button span
+.products_block .owl-carousel .owl-nav button span,
+.case_equipment .owl-carousel .owl-nav button span
 {
     left: 6px;
 
@@ -401,7 +405,8 @@
     border-color: #fff;
 }
 
-.products_block .owl-carousel .owl-nav button:hover
+.products_block .owl-carousel .owl-nav button:hover,
+.case_equipment .owl-carousel .owl-nav button:hover
 {
     background: var(--color_blue);
 }

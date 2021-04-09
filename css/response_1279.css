@@ -227,6 +227,13 @@
         margin: 0;
     }
 
+    header .cart_link .icon
+    {
+        width: 43px;
+        height: 36px;
+        margin: 0;
+    }
+
 
 
     /*---------------
@@ -1423,6 +1430,245 @@
     .contacts_block .chats .icon
     {
         margin-left: 0;
+    }
+
+
+
+    .online_stand .block_title
+    {
+        font-size: 32px;
+        line-height: 36px;
+
+        margin-bottom: 25px;
+    }
+
+    .online_stand .block_desc
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .online_stand .steps
+    {
+        font-size: 15px;
+        line-height: 23px;
+
+        margin-left: -60px;
+    }
+
+    .online_stand .steps > *
+    {
+        max-width: calc(100% - 60px);
+        margin-bottom: 60px;
+        margin-left: 60px;
+    }
+
+    .online_stand .steps .step .icon
+    {
+        width: 72px;
+        height: 72px;
+    }
+
+    .online_stand .steps .step .icon + *
+    {
+        max-width: calc(100% - 92px);
+    }
+
+
+
+    .online_stand .data .checks
+    {
+        width: calc(100% - 440px);
+    }
+
+    .online_stand .data .checks .field + .field
+    {
+        margin-top: 20px;
+    }
+
+
+
+    .online_stand .data .form
+    {
+        width: 400px;
+        padding: 40px 40px 30px;
+    }
+
+    .online_stand .data .form .head .title
+    {
+        font-size: 22px;
+    }
+
+    .online_stand .data .form .head .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .online_stand .data .form .agree .field
+    {
+        padding: 20px 30px 0;
+    }
+
+    .online_stand .data .form .submit_btn
+    {
+        font-size: 18px;
+
+        width: 260px;
+        height: 50px;
+    }
+
+
+
+    .cases .title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        padding: 20px;
+    }
+
+
+    .cases .info
+    {
+        padding: 20px 20px 25px;
+    }
+
+    .cases .info .desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .cases .info .desc img
+    {
+        margin-top: 20px;
+    }
+
+
+
+    .cases .case .thumb + *
+    {
+        width: calc(100% - 212px);
+    }
+
+    .cases .case .desc,
+    .cases .case .feature
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    .cases_info .data
+    {
+        padding: 20px;
+    }
+
+
+    .cases_info .thumb
+    {
+        width: 450px;
+    }
+
+
+    .cases_info .info
+    {
+        width: calc(100% - 480px);
+    }
+
+
+    .cases_info .info .name
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        margin-bottom: 25px;
+    }
+
+
+    .cases_info .info .desc,
+    .cases_info .info .feature
+    {
+        font-size: 15px;
+        line-height: 20px;
+
+        margin-top: 20px;
+    }
+
+
+    .cases_info .info .cats,
+    .cases_info .info .bottom
+    {
+        margin-top: 20px;
+    }
+
+
+    .cases_info .info .calc_btn
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 12px 40px;
+    }
+
+
+    .cases_info .info .discount,
+    .cases_info .info .rating
+    {
+        width: calc(50% - 10px);
+        margin-top: 12px;
+    }
+
+
+
+    .case_equipment .slider
+    {
+        padding: 0 56px;
+    }
+
+
+
+    .case_tabs .tabs button
+    {
+        height: 56px;
+        padding: 12px 20px;
+    }
+
+
+    .case_tabs .tab_content.active
+    {
+        padding: 20px;
+    }
+
+
+
+    .case_tabs .specification .table_title
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 12px;
+    }
+
+
+    .case_tabs .specification table td
+    {
+        font-size: 15px;
+    }
+
+    .case_tabs .specification table td.articul
+    {
+        min-width: 192px;
+    }
+
+    .case_tabs .specification table td.amount
+    {
+        min-width: 172px;
     }
 
 

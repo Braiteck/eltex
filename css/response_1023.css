@@ -87,6 +87,22 @@
     }
 
 
+
+    .text_block .img.left,
+    .text_block img.left
+    {
+        max-width: calc(50% - 25px);
+        margin-right: 25px;
+    }
+
+    .text_block .img.right,
+    .text_block img.right
+    {
+        max-width: calc(50% - 25px);
+        margin-left: 25px;
+    }
+
+
     .text_block .gallery
     {
         margin-bottom: 5px;
@@ -404,6 +420,18 @@
     }
 
     aside .articles_cats a
+    {
+        min-height: 40px;
+    }
+
+
+
+    aside .cases_cats
+    {
+        margin-bottom: 7px;
+    }
+
+    aside .cases_cats a
     {
         min-height: 40px;
     }
@@ -1549,6 +1577,236 @@
     {
         font-size: 15px;
         line-height: 19px;
+    }
+
+
+
+    .online_stand .block_title
+    {
+        font-size: 28px;
+        line-height: 32px;
+
+        margin-bottom: 20px;
+    }
+
+    .online_stand .block_desc
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-bottom: 35px;
+    }
+
+
+    .online_stand .steps
+    {
+        margin-bottom: 20px;
+        margin-left: -52px;
+    }
+
+    .online_stand .steps > *
+    {
+        max-width: calc(100% - 52px);
+        margin-bottom: 15px;
+        margin-left: 52px;
+    }
+
+    .online_stand .steps .step br
+    {
+        display: none;
+    }
+
+    .online_stand .steps .step .icon
+    {
+        width: 52px;
+        height: 52px;
+        margin-right: 16px;
+        padding: 15px;
+    }
+
+    .online_stand .steps .step .icon + *
+    {
+        max-width: calc(100% - 68px);
+    }
+
+
+
+    .online_stand .data .checks
+    {
+        width: 100%;
+    }
+
+
+
+    .online_stand .data .form
+    {
+        width: 100%;
+        margin-top: 52px;
+        padding: 40px 52px;
+    }
+
+
+
+    .cases .title
+    {
+        font-size: 22px;
+        line-height: 26px;
+
+        padding: 15px 20px;
+    }
+
+
+    .cases .info .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    .cases_info .thumb
+    {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .cases_info .info
+    {
+        width: 100%;
+    }
+
+
+    .cases_info .info .name
+    {
+        font-size: 22px;
+        line-height: 28px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .cases_info .info .desc,
+    .cases_info .info .feature
+    {
+        font-size: 14px;
+
+        margin-top: 15px;
+    }
+
+    .cases_info .info .calc_btn
+    {
+        padding: 12px 32px;
+    }
+
+    .cases_info .info .discount,
+    .cases_info .info .rating
+    {
+        width: auto;
+        margin-top: 0;
+    }
+
+
+
+    .case_equipment .block_title
+    {
+        font-size: 19px;
+    }
+
+    .case_equipment .slider
+    {
+        padding: 0 20px;
+    }
+
+
+
+    .case_tabs .specification .table_title
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        padding: 10px;
+    }
+
+    .case_tabs .specification table thead
+    {
+        display: none;
+    }
+
+    .case_tabs .specification table tr.title
+    {
+        border-bottom: 1px solid #dadada;
+    }
+
+    .case_tabs .specification table tr.product
+    {
+        display: flex;
+
+        padding: 20px 0;
+
+        border-bottom: 1px solid #dadada;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .case_tabs .specification table td
+    {
+        padding: 0;
+
+        border: none;
+    }
+
+    .case_tabs .specification table td + td
+    {
+        padding-left: 0;
+    }
+
+    .case_tabs .specification table td.name
+    {
+        width: calc(100% - 85px);
+    }
+
+    .case_tabs .specification table td.articul
+    {
+        margin-left: 110px;
+    }
+
+    .case_tabs .specification table td.articul,
+    .case_tabs .specification table td.amount
+    {
+        position: relative;
+
+        margin-top: 12px;
+        padding-top: 20px;
+    }
+
+    .case_tabs .specification table td.articul:before,
+    .case_tabs .specification table td.amount:before
+    {
+        color: #000;
+        font-size: 11px;
+        font-weight: normal;
+        line-height: 13px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 100%;
+        height: 20px;
+
+        content: attr(data-column);
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0;
+        text-transform: none;
+
+        opacity: .4;
     }
 
 

@@ -696,6 +696,75 @@
 
 
 
+    .online_stand
+    {
+        padding: 0;
+    }
+
+    .online_stand .block_title
+    {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+
+    .online_stand .steps
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .online_stand .steps .step .icon
+    {
+        width: 48px;
+        height: 48px;
+        padding: 12px;
+    }
+
+    .online_stand .steps .step .icon + *
+    {
+        max-width: calc(100% - 64px);
+    }
+
+
+
+    .online_stand .data .form
+    {
+        padding: 35px 25px;
+    }
+
+    .online_stand .data .form .agree .field
+    {
+        padding: 10px 5px 0;
+    }
+
+    .online_stand .data .form .submit_btn
+    {
+        font-size: 16px;
+
+        width: 232px;
+        height: 48px;
+    }
+
+    .online_stand .data .form .notice
+    {
+        font-size: 13px;
+        line-height: 17px;
+
+        padding: 8px 0 8px 14px;
+    }
+
+
+
+    .case_tabs .specification table td.articul,
+    .case_tabs .specification table td.amount
+    {
+        width: calc(100% - 110px);
+        margin-left: 110px;
+    }
+
+
+
     .pagination
     {
         padding: 10px 20px;

@@ -40,6 +40,19 @@
     }
 
 
+    .text_block .img.left,
+    .text_block img.left,
+    .text_block .img.right,
+    .text_block img.right
+    {
+        float: none;
+
+        max-width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+
     .text_block .gallery > *
     {
         width: calc(100% - 20px);
@@ -1238,6 +1251,128 @@
     .contacts_block .chats > * > div
     {
         margin-bottom: 5px;
+    }
+
+
+
+    .online_stand .block_title
+    {
+        font-size: 26px;
+        line-height: 30px;
+
+        margin-bottom: 12px;
+    }
+
+    .online_stand .block_desc
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-bottom: 30px;
+    }
+
+
+    .online_stand .steps
+    {
+        margin-bottom: 25px;
+        margin-left: 0;
+    }
+
+    .online_stand .steps > *
+    {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+        margin-left: 0;
+    }
+
+
+
+    .online_stand .data .checks label
+    {
+        font-size: 15px;
+        line-height: 25px;
+
+        padding-left: 41px;
+    }
+
+    .online_stand .data .checks label:before
+    {
+        width: 25px;
+        height: 25px;
+    }
+
+    .online_stand .data .checks label:after
+    {
+        top: 7px;
+        left: 6px;
+    }
+
+
+
+    .online_stand .data .form
+    {
+        margin-top: 50px;
+        padding: 40px;
+    }
+
+
+
+    .cases .title
+    {
+        font-size: 20px;
+        line-height: 24px;
+
+        padding: 15px 20px;
+    }
+
+
+    .cases .case .thumb + *
+    {
+        width: 100%;
+        margin-top: 16px;
+    }
+
+    .cases .case .name
+    {
+        font-size: 17px;
+    }
+
+
+
+    .cases_info .info .name
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .cases_info .info .discount,
+    .cases_info .info .rating
+    {
+        margin-top: 15px;
+    }
+
+
+
+    .case_equipment .slider
+    {
+        padding: 0;
+    }
+
+
+
+    .case_tabs .specification table td.articul,
+    .case_tabs .specification table td.amount
+    {
+        font-size: 14px;
+
+        min-width: 0;
+    }
+
+    .case_tabs .specification table td.amount
+    {
+        margin-left: 40px;
     }
 
 
