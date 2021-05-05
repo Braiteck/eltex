@@ -236,14 +236,16 @@
         line-height: 40px;
     }
 
-    .product_info .info .buy_info .buy_links > * + *
-    {
-        margin-left: 10px;
-    }
-
-    .product_info .info .buy_info .quike_buy_link
+    .product_info .info .buy_info .quike_buy_link,
+    .product_info .info .buy_info .buy_link
     {
         font-size: 15px;
+    }
+
+
+    .product_info .info .buy_info .garanti .add_link
+    {
+        margin-left: auto;
     }
 
 

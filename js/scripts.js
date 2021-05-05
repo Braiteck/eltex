@@ -394,6 +394,84 @@ $(() => {
 	})
 
 
+	// Сравнение товаров
+	if ($('.compare_info .swiper-container').length) {
+		new Swiper('.compare_info .swiper-container', {
+			loop: false,
+			speed: 500,
+			spaceBetween: 0,
+			watchSlidesVisibility: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			scrollbar: {
+				el: '.swiper-scrollbar',
+				hide: false,
+			},
+			breakpoints: {
+				0: {
+					slidesPerView: 1
+				},
+				480: {
+					slidesPerView: 2
+				},
+				1024: {
+					slidesPerView: 3
+				},
+				1280: {
+					slidesPerView: 4
+				}
+			},
+			on: {
+				init: swiper => {
+					setTimeout(() => {
+						productHeight($(swiper.$el), $(swiper.$el).find('.slide').length)
+
+						compareHeight()
+					})
+				},
+				resize: swiper => {
+					setTimeout(() => {
+						productHeight($(swiper.$el), $(swiper.$el).find('.slide').length)
+
+						compareHeight()
+					})
+				}
+			}
+		})
+	}
+
+	$('.compare_info .more_features_btn').click(function (e) {
+		e.preventDefault()
+
+		if ($(this).hasClass('active')) {
+			$(this).removeClass('active')
+
+			$('.compare_info .compare_features .list > *.hide').hide()
+			$('.compare_info .product_features .list > *.hide').hide()
+		} else {
+			$(this).addClass('active')
+
+			$('.compare_info .compare_features .list > *.hide').fadeIn(300)
+			$('.compare_info .product_features .list > *.hide').fadeIn(300)
+		}
+	})
+
+
+	$('.compare_info .compare_features .list > *, .compare_info .product_features .list > *').mouseleave(function () {
+		$('.compare_info .compare_features .list > *').removeClass('hover')
+		$('.compare_info .product_features .list > *').removeClass('hover')
+	})
+
+	$('.compare_info .compare_features .list > *, .compare_info .product_features .list > *').mouseover(function () {
+		let featureIndex = $(this).index()
+
+		$('.compare_info .compare_features .list > *:eq(' + featureIndex + ')').addClass('hover')
+		$('.compare_info .product_features .list').each(function () {
+			$(this).find(' > *:eq(' + featureIndex + ')').addClass('hover')
+		})
+	})
+
+
 	// Отправка форм
 	$('body').on('submit', '#best_price_modal .form', (e) => {
 		e.preventDefault()
@@ -480,4 +558,49 @@ function productHeight(context, step) {
 		start = start + step
 		finish = finish + step
 	}
+}
+
+
+// Выравнивание в сравнении
+function compareHeight() {
+	$('.compare_info .compare_features .list > *').height('auto')
+	$('.compare_info .product_features .list > *').height('auto')
+
+	let productFeatures = $('.compare_info .product_features .list'),
+		compareFeatures = $('.compare_info .compare_features .list'),
+		sizes = new Object()
+
+	productFeatures.each(function () {
+		$(this).find('> *').each(function () {
+			if (sizes[$(this).index()]) {
+				if ($(this).outerHeight() > sizes[$(this).index()]) {
+					sizes[$(this).index()] = $(this).outerHeight()
+				}
+			} else {
+				sizes[$(this).index()] = $(this).outerHeight()
+			}
+		})
+	})
+
+	compareFeatures.each(function () {
+		$(this).find('> *').each(function () {
+			if (sizes[$(this).index()]) {
+				if ($(this).outerHeight() > sizes[$(this).index()]) {
+					sizes[$(this).index()] = $(this).outerHeight()
+				}
+			} else {
+				sizes[$(this).index()] = $(this).outerHeight()
+			}
+		})
+	})
+
+	$.each(sizes, (key, data) => {
+		productFeatures.each(function () {
+			$(this).find('> *:eq(' + key + ')').innerHeight(data)
+		})
+
+		$('.compare_info .compare_features .list > *:eq(' + key + ')').innerHeight(data)
+	})
+
+	$('.compare_info .swiper-scrollbar').css('top', $('.compare_info .products .product').outerHeight())
 }

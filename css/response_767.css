@@ -476,6 +476,29 @@
     }
 
 
+    .product_info .info .buy_info .buy_links > * + *
+    {
+        margin-left: 0;
+    }
+
+    .product_info .info .buy_info .quike_buy_link
+    {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .product_info .info .buy_info .buy_link
+    {
+        margin-top: 12px;
+        padding: 0 30px;
+    }
+
+    .product_info .info .buy_info .compare
+    {
+        margin-top: 12px;
+    }
+
+
 
     .product_info .info .buy_info .issue_invoice
     {
@@ -1373,6 +1396,100 @@
     .case_tabs .specification table td.amount
     {
         margin-left: 40px;
+    }
+
+
+
+    .compare_info .data
+    {
+        padding: 20px;
+    }
+
+    .compare_info .block_title
+    {
+        font-size: 22px;
+    }
+
+
+    .compare_info .grid
+    {
+        margin-bottom: -20px;
+    }
+
+    .compare_info .grid .col_left
+    {
+        width: 100%;
+    }
+
+    .compare_info .grid .col_main
+    {
+        width: 100%;
+
+        border-top: 1px solid #eee;
+    }
+
+
+    .compare_info .filter
+    {
+        padding: 20px;
+    }
+
+
+    .compare_info .compare_features
+    {
+        display: none;
+    }
+
+
+    .compare_info .products .product
+    {
+        padding: 18px 18px 24px;
+    }
+
+    .compare_info .product_features
+    {
+        padding: 0;
+    }
+
+    .compare_info .product_features .list > *
+    {
+        padding-top: 28px;
+    }
+
+    .compare_info .product_features .list > *:before
+    {
+        color: #000;
+        font-size: 12px;
+        font-weight: normal;
+        line-height: 14px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: flex;
+
+        width: 100%;
+        height: 28px;
+        padding: 0 20px;
+
+        content: attr(data-column);
+        text-align: left;
+        white-space: nowrap;
+        letter-spacing: 0;
+        text-transform: none;
+
+        opacity: .4;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+    .compare_info .product_features .list > * > * + *
+    {
+        margin-top: 8px;
     }
 
 

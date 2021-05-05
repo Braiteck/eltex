@@ -639,25 +639,14 @@
     }
 
 
-    .product_info .info .buy_info .quike_buy_link
+    .product_info .info .buy_info .quike_buy_link,
+    .product_info .info .buy_info .buy_link
     {
         font-size: 16px;
         line-height: 44px;
 
         height: 44px;
         padding: 0 20px;
-    }
-
-    .product_info .info .buy_info .buy_link
-    {
-        width: 44px;
-        height: 44px;
-    }
-
-    .product_info .info .buy_info .buy_link .icon
-    {
-        width: 28px;
-        height: 25px;
     }
 
 
@@ -683,6 +672,12 @@
 
         height: 44px;
         padding: 0 40px;
+    }
+
+
+    .product_info .info .compare
+    {
+        margin-left: 20px !important;
     }
 
 
@@ -1669,6 +1664,49 @@
     .case_tabs .specification table td.amount
     {
         min-width: 172px;
+    }
+
+
+
+    .compare_info .data
+    {
+        padding: 24px 20px;
+    }
+
+    .compare_info .block_title
+    {
+        font-size: 26px;
+    }
+
+
+    .compare_info .grid
+    {
+        margin-right: -20px;
+        margin-bottom: -24px;
+        margin-left: -20px;
+    }
+
+
+    .compare_info .filter
+    {
+        padding-top: 24px;
+        padding-left: 20px;
+    }
+
+    .compare_info .filter input[type=radio] + label
+    {
+        font-size: 15px;
+    }
+
+
+    .compare_info .compare_features
+    {
+        padding-left: 20px;
+    }
+
+    .compare_info .compare_features .title:before
+    {
+        left: -20px;
     }
 
 

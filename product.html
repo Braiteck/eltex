@@ -1139,26 +1139,6 @@
 														<div>Новосибирск <b>164 шт</b></div>
 													</div>
 												</div>
-
-
-												<div class="buy_links">
-													<button class="quike_buy_link modal_link" data-content="#quike_buy_modal">Быстрая заявка</button>
-
-													<button class="buy_link">
-														<svg class="icon">
-															<use xlink:href="images/sprite.svg#ic_buy"></use>
-														</svg>
-													</button>
-
-													<div class="amount">
-													    <button type="button" class="minus"></button>
-
-													    <input type="text" value="1" class="input"
-													      data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
-
-													    <button type="button" class="plus"></button>
-													</div>
-												</div>
 											</div>
 
 
@@ -1178,18 +1158,48 @@
 														<span>Рассчитать цену доставки</span>
 													</button></div>
 												</div>
+											</div>
 
 
-												<div class="garanti">
-													<div class="val">Гарантия 12 мес <span></span></div>
+											<div class="buy_links">
+												<button class="quike_buy_link modal_link" data-content="#quike_buy_modal">Быстрая заявка</button>
 
-													<button class="add_link modal_link" data-content="#add_garanti_modal">
-														<svg class="icon">
-															<use xlink:href="images/sprite.svg#ic_garanti"></use>
-														</svg>
-														<span>Добавить гарантию</span>
+												<button class="buy_link">В корзину</button>
+
+												<!-- <div class="amount">
+													<button type="button" class="minus"></button>
+
+													<input type="text" value="1" class="input"
+													  data-minimum="1" data-maximum="99" data-step="1" data-unit="" maxlength="2">
+
+													<button type="button" class="plus"></button>
+												</div> -->
+
+												<div class="compare tooltip">
+													<!-- <button class="compare_link show_tooltip"> -->
+													<button class="compare_link">
+														<div class="icon">
+															<svg><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+														</div>
+														<span>Сравнить</span>
 													</button>
+
+													<div class="text">
+														<a href="/">Перейти в сравнение</a>
+													</div>
 												</div>
+											</div>
+
+
+											<div class="garanti">
+												<div class="val">Гарантия 12 мес <span></span></div>
+
+												<button class="add_link modal_link" data-content="#add_garanti_modal">
+													<svg class="icon">
+														<use xlink:href="images/sprite.svg#ic_garanti"></use>
+													</svg>
+													<span>Добавить гарантию</span>
+												</button>
 											</div>
 										</div>
 
@@ -2297,7 +2307,13 @@
 													<a href="/">MES3508P в корпусе IP66 (третья строка заголовок Н3)</a>
 												</div>
 
-												<div class="desc">8x1G Poe/Poe+<br> 2x1G Eth/SFP Combo<br> 48V DC<br> IP66</div>
+												<div class="inline">
+													<div class="desc">8x1G Poe/Poe+<br> 2x1G Eth/SFP Combo<br> 48V DC<br> IP66</div>
+
+													<button class="compare_btn">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													</button>
+												</div>
 
 												<div class="bottom">
 													<div class="price">45 011</div>
@@ -2320,7 +2336,13 @@
 													<a href="/">RR-10 Репитер</a>
 												</div>
 
-												<div class="desc">RR-10 – универсальный повторитель беспроводного сигнала, предназначен для расширения зоны покрытия...</div>
+												<div class="inline">
+													<div class="desc">RR-10 – универсальный повторитель беспроводного сигнала, предназначен для расширения зоны покрытия...</div>
+
+													<button class="compare_btn">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													</button>
+												</div>
 
 												<div class="bottom">
 													<div class="price">45 011</div>
@@ -2343,7 +2365,13 @@
 													<a href="/">WOP-2ac-LR2 Базовая станция</a>
 												</div>
 
-												<div class="desc">Combo-порт 10/100/1000Base-T (Ethernet) / 100/1000Base-X (SFP)<br> 2 разъема SMA-типа (female) ...</div>
+												<div class="inline">
+													<div class="desc">Combo-порт 10/100/1000Base-T (Ethernet) / 100/1000Base-X (SFP)<br> 2 разъема SMA-типа (female) ...</div>
+
+													<button class="compare_btn">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													</button>
+												</div>
 
 												<div class="bottom">
 													<div class="price">45 011</div>
@@ -2366,7 +2394,13 @@
 													<a href="/">MES3510P Eltex | Промышленный коммутатор 8 портов ...</a>
 												</div>
 
-												<div class="desc">8x1G Poe/Poe+<br> 4x1G SFP<br> 48V DC</div>
+												<div class="inline">
+													<div class="desc">8x1G Poe/Poe+<br> 4x1G SFP<br> 48V DC</div>
+
+													<button class="compare_btn">
+														<svg class="icon"><use xlink:href="images/sprite.svg#ic_compare"></use></svg>
+													</button>
+												</div>
 
 												<div class="bottom">
 													<div class="price">45 011</div>
@@ -3691,7 +3725,7 @@
 					<button type="submit" class="submit_btn">Получить консультацию</button>
 				</div>
 			</form>
-		</section>	
+		</section>
 
 
 		<section class="modal" id="feedback_modal">
