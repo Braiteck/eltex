@@ -5461,6 +5461,11 @@ aside .page_links .items a.active
     border-top: 1px solid #dadada;
 }
 
+.products .table_wrap.disable_hover
+{
+    pointer-events: none;
+}
+
 .products table
 {
     width: 100%;

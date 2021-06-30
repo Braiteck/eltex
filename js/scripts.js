@@ -542,6 +542,19 @@ $(window).resize(() => {
 
 
 
+var scrollTimer
+
+$(window).scroll(() => {
+	if (scrollTimer) clearTimeout(scrollTimer)
+	$('.table_wrap').addClass('disable_hover')
+
+	scrollTimer = setTimeout(() => {
+		$('.table_wrap').removeClass('disable_hover')
+	}, 100)
+})
+
+
+
 // Выравнивание решений
 function productHeight(context, step) {
 	let start = 0
