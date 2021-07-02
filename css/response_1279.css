@@ -171,7 +171,7 @@
 
     header .catalog
     {
-        width: 250px;
+        width: 159px;
     }
 
     header .catalog .link
@@ -185,7 +185,7 @@
 
     header .menu
     {
-        width: calc(100% - 400px);
+        width: calc(100% - 414px);
         padding: 0 10px;
     }
 
@@ -196,6 +196,13 @@
         min-height: 62px;
     }
 
+
+
+    header .compare_link a,
+    header .favorite_link a
+    {
+        min-height: 62px;
+    }
 
 
     header .visited .link

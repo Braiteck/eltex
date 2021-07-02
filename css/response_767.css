@@ -149,7 +149,7 @@
 
     .mob_header .search
     {
-        width: 25%;
+        width: 16.666%;
         margin: 0;
     }
 
@@ -160,11 +160,13 @@
     }
 
 
+    .mob_header .compare_link,
+    .mob_header .favorite_link,
     .mob_header .visited,
     .mob_header .cart_link,
     .mob_header .mob_menu_link
     {
-        width: 25%;
+        width: 16.666%;
         height: 45px;
         margin: 0;
 
@@ -172,11 +174,14 @@
     }
 
 
+    .mob_header .compare_link a,
+    .mob_header .favorite_link a,
     .mob_header .visited .link
     {
         width: 100%;
         height: 45px;
     }
+
 
     #mob_visited_modal
     {

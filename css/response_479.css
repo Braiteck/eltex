@@ -82,6 +82,22 @@
     }
 
 
+
+    .mob_header .compare_link a .icon,
+    .mob_header .favorite_link a .icon,
+    .mob_header .visited .link .icon,
+    .mob_header .visited .link .count
+    {
+        transform: scale(.85);
+    }
+
+    .mob_header .cart_link .icon,
+    .mob_header .cart_link .count
+    {
+        transform: scale(.92);
+    }
+
+
     #mob_search_modal
     {
         padding: 15px;

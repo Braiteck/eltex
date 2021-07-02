@@ -2635,7 +2635,7 @@ header .theme .icon
 
 header .catalog
 {
-    width: var(--aside_width);
+    width: 229px;
     max-width: 100%;
     margin-right: auto;
 }
@@ -2916,6 +2916,88 @@ header .menu .sub_menu a.active
 
 
 
+header .links
+{
+    display: flex;
+
+    border-left: 1px solid rgba(64,210,255,.5);
+
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap;
+}
+
+
+header .compare_link
+{
+    margin-left: 16px;
+}
+
+header .compare_link a
+{
+    color: #96e5fd;
+
+    display: flex;
+
+    width: 40px;
+    height: 100%;
+    min-height: 77px;
+
+    text-decoration: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+header .compare_link a .icon
+{
+    display: block;
+
+    width: 25px;
+    height: 24px;
+}
+
+
+header .favorite_link
+{
+    margin-left: 12px;
+}
+
+header .favorite_link a
+{
+    color: #96e5fd;
+
+    display: flex;
+
+    width: 40px;
+    height: 100%;
+    min-height: 77px;
+
+    text-decoration: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+header .favorite_link a .icon
+{
+    display: block;
+
+    width: 27px;
+    height: 24px;
+}
+
+
+header .visited
+{
+    margin-left: -4px;
+}
+
 header .visited .link
 {
     color: var(--color_white);
@@ -2925,7 +3007,7 @@ header .visited .link
 
     display: flex;
 
-    width: 91px;
+    width: 77px;
     height: 100%;
     min-height: 77px;
     padding: 10px 8px 10px 0;
@@ -2934,7 +3016,6 @@ header .visited .link
     transition: background .2s linear;
 
     border: none;
-    border-left: 1px solid rgba(64,210,255,.5);
     background: none;
 
     justify-content: center;
@@ -3357,9 +3438,65 @@ header .cart_link.active
 }
 
 
+.mob_header .compare_link
+{
+    margin-left: 16px;
+}
+
+.mob_header .compare_link a
+{
+    color: var(--color_blue);
+
+    display: flex;
+
+    text-decoration: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.mob_header .compare_link a .icon
+{
+    display: block;
+
+    width: 25px;
+    height: 24px;
+}
+
+
+.mob_header .favorite_link
+{
+    margin-left: 20px;
+}
+
+.mob_header .favorite_link a
+{
+    color: var(--color_blue);
+
+    display: flex;
+
+    text-decoration: none;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.mob_header .favorite_link a .icon
+{
+    display: block;
+
+    width: 27px;
+    height: 24px;
+}
+
+
 .mob_header .visited
 {
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 .mob_header .visited .link
@@ -3386,6 +3523,7 @@ header .cart_link.active
     line-height: 18px;
 
     position: absolute;
+    z-index: 3;
     top: -24px;
     right: -24px;
     bottom: 0;
@@ -3519,7 +3657,7 @@ header .cart_link.active
 
     display: flex;
 
-    margin-left: 30px;
+    margin-left: 20px;
 
     text-decoration: none;
     text-transform: uppercase;
@@ -3611,6 +3749,84 @@ aside
 aside.mini
 {
     width: var(--aside_mini_width);
+}
+
+
+
+aside .compare_informer
+{
+    display: flex;
+
+    margin-bottom: 8px;
+    padding: 21px 19px 21px 12px;
+
+    border-left: 1px solid #00abdf;
+    background: #fff;
+
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+aside .compare_informer .icon
+{
+    display: flex;
+
+    width: 39px;
+    height: 39px;
+
+    border-radius: 50%;
+    background: #00abdf;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+aside .compare_informer .icon svg
+{
+    color: #fff;
+
+    display: block;
+
+    width: 24px;
+    height: 21px;
+}
+
+aside .compare_informer .icon + div
+{
+    width: calc(100% - 54px);
+}
+
+aside .compare_informer .count
+{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+aside .compare_informer a
+{
+    color: #00abdf;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+
+    display: inline-block;
+
+    transition: border-color .2s linear;
+    vertical-align: top;
+    text-decoration: none;
+
+    border-bottom: 1px dashed;
+}
+
+aside .compare_informer a:hover
+{
+    border-color: transparent;
 }
 
 
